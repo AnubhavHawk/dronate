@@ -59,7 +59,7 @@
 		$(function () {
 		    $('[data-toggle="tooltip"]').tooltip()
 		})
-		var platform = new H.service.Platform({'apikey':'Q8YJrd6nSQYp_S8WNXt0r1EzGWvTv4KkssNS5eEooow'});
+		var platform = new H.service.Platform({'apikey':'{API_KEY}'});
 		var defaultLayers = platform.createDefaultLayers();
 
 		var map = new  H.Map(
