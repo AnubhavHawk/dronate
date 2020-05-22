@@ -1,0 +1,37 @@
+body, html
+{
+	overflow-x: hidden!important;
+}
+.link-section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.link-section span a
+{
+	color: black;
+	font-weight: bolder;
+}
+.link-section span a:hover
+{
+	color:brown;
+	transition: color 0.3s;
+}
+@media only screen and (max-width: 768px) {
+  .link-section {
+  	flex-direction: row;
+  	padding: 30px 10px;
+  	/*padding-top: 15px;*/
+  }
+}
+.soft-yellow-bg
+{
+	background-color: #fffcd7;
+}
+.mapContainer
+{
+	box-shadow: 0px 0px 6px 1px #ffe099;
+	height: 100%;
+}
