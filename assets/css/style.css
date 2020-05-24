@@ -1,0 +1,66 @@
+body, html
+{
+	overflow-x: hidden!important;
+}
+.link-section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.link-section span a
+{
+	color: black;
+	font-weight: bolder;
+}
+.link-section span a:hover
+{
+	color:brown;
+	transition: color 0.3s;
+}
+.soft-yellow-bg
+{
+	background-color: #fffcd7;
+}
+.mapContainer
+{
+	box-shadow: 0px 0px 6px 1px #ffe099;
+	height: 100%;
+}
+.t-shadow
+{
+	text-shadow: 1px 0px 2px #fcee21!important;
+	animation-name: move;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+@keyframes move {
+  from {margin-left:0px;}
+  to {margin-left:12px;}
+}
+
+@keyframes moveup
+{
+  from {color: red}
+  to {color: green;} 	
+}
+/* The element to apply the animation to */
+
+@media only screen and (max-width: 768px) {
+  .link-section {
+  	flex-direction: row;
+  	padding: 30px 10px;
+  	/*padding-top: 15px;*/
+  }
+  .t-shadow
+  {
+  	animation-name: moveup;
+  	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+  }
+}
