@@ -4,6 +4,8 @@
 This allows people to share their left over or fresh made food with people in this pandemic. The donators can mark their location and someone will reach out to them to collect the food and provide it to needy ones. Similarly people (who are starving) can request food. If they don’t have internet, then someone else can mark location on their behalf.
 Someone will pick the food from donators location and provide it to needy ones.
 
+[![Dronate Demo Video](https://raw.githubusercontent.com/AnubhavHawk/dronate/master/assets/img/dronate-video.PNG)](https://www.youtube.com/watch?v=WxQYYzTMFNQ)
+
 ![Dronate Screen](https://anubhav.netlify.app/assets/img/dronate/dronate_screen_1.jpg)
 
 #### Requirements
